@@ -21,7 +21,7 @@ public class HomeConsult extends AggregateEvent<HomeConsultID> {
 
     public HomeConsult(HomeConsultID homeConsultID, Price price){
         super(homeConsultID);
-        appendChange(new HomeConsultCreated(homeConsultID, price)).apply();
+        appendChange(new HomeConsultCreated(price)).apply();
     }
 
     private HomeConsult(HomeConsultID homeConsultID){
@@ -74,7 +74,7 @@ public class HomeConsult extends AggregateEvent<HomeConsultID> {
     public void updateDiagnosticRecipe(DiagnosticID diagnosticID, Recipe recipe){
         Objects.requireNonNull(diagnosticID);
         Objects.requireNonNull(recipe);
-        appendChange(new DiagnosticRecipeUpdate(diagnosticID, recipe)).apply();
+        appendChange(new DiagnosticRecipeUpdated(diagnosticID, recipe)).apply();
     }
 
     public User getUser() {
@@ -87,5 +87,9 @@ public class HomeConsult extends AggregateEvent<HomeConsultID> {
 
     public Diagnostic getDiagnostic() {
         return diagnostic;
+    }
+
+    public void homeConsultCreated(String message) {
+        appendChange(new HomeConsultCreated(price)).apply();
     }
 }

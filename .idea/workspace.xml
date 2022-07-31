@@ -5,11 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acca19f7-4ba3-4f31-8d32-a416959b9515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/atention/usecases/UpdateUserNameUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/atention/usecases/UpdateUserNameUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/AddDiagnostic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/AddDoctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/UpdateDiagnosticRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/UpdateDoctorPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/commands/UpdateUserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/AddDiagnosticUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/AddDoctorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/AddUserUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/HomeConsultCreatedUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/UpdateDiagnosticRecipeUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/usecases/UpdateUserAddressUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/AddDiagnosticUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/AddDoctorUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/AddUserUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/HomeConsultCreatedUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/UpdateDiagnosticRecipeUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/assistance/usecases/UpdateUserAddressUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/atention/usecases/UpdateDiagnosticRecipeUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/atention/usecases/UpdateDiagnosticRecipeUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/atention/usecases/UpdateDiagnosticRecipeUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sofka/yissel/atention/usecases/UpdateDiagnosticRecipeUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/HomeConsult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/HomeConsult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/HomeConsultChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/HomeConsultChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/Diagnostic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/Diagnostic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/events/DiagnosticRecipeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/events/DiagnosticRecipeUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/events/HomeConsultCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/events/HomeConsultCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Especiality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Especiality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Fecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Fecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofka/yissel/assistance/values/Recipe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +94,53 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sofka.yissel.assistance.usecases" />
       <recent name="com.sofka.yissel.atention.usecases" />
       <recent name="com.sofka.yissel.atention.entities" />
       <recent name="com.sofka.yissel.atention.values" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UpdateUserNameUseCaseTest">
+  <component name="RunManager" selected="JUnit.com.sofka.yissel in retoddd">
+    <configuration name="AddDiagnosticUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="retoddd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sofka.yissel.assistance.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sofka.yissel.assistance.usecases" />
+      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.assistance.usecases.AddDiagnosticUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddDoctorUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="retoddd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sofka.yissel.assistance.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sofka.yissel.assistance.usecases" />
+      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.assistance.usecases.AddDoctorUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddUserUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="retoddd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sofka.yissel.atention.usecases.*" />
+          <option name="PATTERN" value="com.sofka.yissel.assistance.usecases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sofka.yissel.atention.usecases" />
-      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.atention.usecases.AddUserUseCaseTest" />
+      <option name="PACKAGE_NAME" value="com.sofka.yissel.assistance.usecases" />
+      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.assistance.usecases.AddUserUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,57 +150,26 @@
       <module name="retoddd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sofka.yissel.atention.usecases.*" />
+          <option name="PATTERN" value="com.sofka.yissel.assistance.usecases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sofka.yissel.atention.usecases" />
-      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.atention.usecases.UpdateDiagnosticRecipeUseCaseTest" />
+      <option name="PACKAGE_NAME" value="com.sofka.yissel.assistance.usecases" />
+      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.assistance.usecases.UpdateDiagnosticRecipeUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateDiagnosticRecipeUseCaseTest.updateDiagnosticRecipeSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.sofka.yissel in retoddd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="retoddd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sofka.yissel.atention.usecases.*" />
+          <option name="PATTERN" value="com.sofka.yissel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sofka.yissel.atention.usecases" />
-      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.atention.usecases.UpdateDiagnosticRecipeUseCaseTest" />
-      <option name="METHOD_NAME" value="updateDiagnosticRecipeSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateUserNameUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="retoddd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sofka.yissel.atention.usecases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sofka.yissel.atention.usecases" />
-      <option name="MAIN_CLASS_NAME" value="com.sofka.yissel.atention.usecases.UpdateUserNameUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.sofka.yissel.atention.usecases in retoddd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="retoddd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sofka.yissel.atention.usecases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sofka.yissel.atention.usecases" />
+      <option name="PACKAGE_NAME" value="com.sofka.yissel" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UpdateUserNameUseCaseTest" />
-        <item itemvalue="JUnit.com.sofka.yissel.atention.usecases in retoddd" />
+        <item itemvalue="JUnit.com.sofka.yissel in retoddd" />
         <item itemvalue="JUnit.UpdateDiagnosticRecipeUseCaseTest" />
-        <item itemvalue="JUnit.UpdateDiagnosticRecipeUseCaseTest.updateDiagnosticRecipeSuccessfully" />
         <item itemvalue="JUnit.AddUserUseCaseTest" />
+        <item itemvalue="JUnit.AddDoctorUseCaseTest" />
+        <item itemvalue="JUnit.AddDiagnosticUseCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659132006249</updated>
-      <workItem from="1659132008007" duration="58579000" />
+      <workItem from="1659132008007" duration="68643000" />
     </task>
     <servers />
   </component>
