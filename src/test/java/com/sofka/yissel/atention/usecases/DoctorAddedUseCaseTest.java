@@ -3,9 +3,9 @@ package com.sofka.yissel.atention.usecases;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.TriggeredEvent;
-import co.com.sofka.domain.generic.DomainEvent;
 import com.sofka.yissel.atention.Doctor;
 import com.sofka.yissel.atention.events.DoctorAdded;
+import com.sofka.yissel.atention.events.DoctorAddedMessage;
 import com.sofka.yissel.atention.values.DoctorID;
 import com.sofka.yissel.atention.values.Especiality;
 import com.sofka.yissel.atention.values.Name;
@@ -48,9 +48,9 @@ class DoctorAddedUseCaseTest{
                 .orElseThrow()
                 .getDomainEvents();
 
-        var ed = (DoctorAdded) events.get(0);
+        var ed = (DoctorAddedMessage) events.get(0);
 
-        assertEquals("lili", ed.getName().value());
+        assertEquals("Doctor fue creado", ed.getMessage());
 
     }
 

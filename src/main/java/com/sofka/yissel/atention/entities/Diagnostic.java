@@ -1,7 +1,6 @@
 package com.sofka.yissel.atention.entities;
 
 import co.com.sofka.domain.generic.Entity;
-import co.com.sofka.domain.generic.Identity;
 import com.sofka.yissel.atention.values.Description;
 import com.sofka.yissel.atention.values.DiagnosticID;
 import com.sofka.yissel.atention.values.Fecha;

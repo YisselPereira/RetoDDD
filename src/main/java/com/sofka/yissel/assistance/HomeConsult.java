@@ -90,6 +90,6 @@ public class HomeConsult extends AggregateEvent<HomeConsultID> {
     }
 
     public void homeConsultCreated(String message) {
-        appendChange(new HomeConsultCreated(price)).apply();
+        appendChange(new HomeConsultCreatedMessage(message)).apply();
     }
 }

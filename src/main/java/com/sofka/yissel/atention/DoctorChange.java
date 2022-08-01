@@ -1,10 +1,9 @@
 package com.sofka.yissel.atention;
 
 import co.com.sofka.domain.generic.EventChange;
-import com.sofka.yissel.atention.entities.Diagnostic;
 import com.sofka.yissel.atention.entities.User;
+import com.sofka.yissel.atention.entities.Diagnostic;
 import com.sofka.yissel.atention.events.*;
-import com.sofka.yissel.atention.values.DiagnosticID;
 
 import java.util.HashSet;
 

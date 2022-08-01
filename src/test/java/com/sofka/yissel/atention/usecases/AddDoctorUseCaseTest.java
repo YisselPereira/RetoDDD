@@ -8,7 +8,6 @@ import com.sofka.yissel.atention.events.DoctorAdded;
 import com.sofka.yissel.atention.values.DoctorID;
 import com.sofka.yissel.atention.values.Especiality;
 import com.sofka.yissel.atention.values.Name;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

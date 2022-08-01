@@ -5,7 +5,6 @@ import com.sofka.yissel.assistance.values.Address;
 import com.sofka.yissel.assistance.values.AnimalType;
 import com.sofka.yissel.assistance.values.Name;
 import com.sofka.yissel.assistance.values.UserID;
-import com.sofka.yissel.atention.entities.User;
 
 public class UserAdded extends DomainEvent {
     private final UserID userID;

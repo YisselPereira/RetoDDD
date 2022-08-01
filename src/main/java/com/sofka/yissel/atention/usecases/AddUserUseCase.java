@@ -4,7 +4,6 @@ import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
 import com.sofka.yissel.atention.Doctor;
-import com.sofka.yissel.atention.commands.AddDiagnostic;
 import com.sofka.yissel.atention.commands.AddUser;
 
 public class AddUserUseCase extends UseCase<RequestCommand<AddUser>, ResponseEvents> {

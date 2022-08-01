@@ -1,7 +1,6 @@
 package com.sofka.yissel.atention.commands;
 
 import co.com.sofka.domain.generic.Command;
-import com.sofka.yissel.atention.entities.Diagnostic;
 import com.sofka.yissel.atention.values.DiagnosticID;
 import com.sofka.yissel.atention.values.DoctorID;
 import com.sofka.yissel.atention.values.Recipe;

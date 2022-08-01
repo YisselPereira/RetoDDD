@@ -5,7 +5,7 @@ import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.TriggeredEvent;
 import com.sofka.yissel.assistance.HomeConsult;
 import com.sofka.yissel.assistance.events.HomeConsultCreated;
-import com.sofka.yissel.assistance.usecases.HomeConsultCreatedUseCase;
+import com.sofka.yissel.assistance.events.HomeConsultCreatedMessage;
 import com.sofka.yissel.assistance.values.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -45,9 +45,9 @@ class HomeConsultCreatedUseCaseTest{
                 .orElseThrow()
                 .getDomainEvents();
 
-        var homecons = (HomeConsultCreated) events.get(0);
+        var homecons = (HomeConsultCreatedMessage) events.get(0);
 
-        assertEquals(1, homecons.getPrice().value());
+        assertEquals("Consulta a domicilio fue creada", homecons.getMessage());
 
     }
 

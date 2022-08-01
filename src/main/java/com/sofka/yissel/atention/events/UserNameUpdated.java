@@ -1,7 +1,6 @@
 package com.sofka.yissel.atention.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.yissel.atention.values.DiagnosticID;
 import com.sofka.yissel.atention.values.Name;
 import com.sofka.yissel.atention.values.UserID;
 

@@ -2,8 +2,8 @@ package com.sofka.yissel.atention;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.yissel.atention.entities.Diagnostic;
 import com.sofka.yissel.atention.entities.User;
+import com.sofka.yissel.atention.entities.Diagnostic;
 import com.sofka.yissel.atention.events.*;
 import com.sofka.yissel.atention.values.*;
 
@@ -112,6 +112,6 @@ public class Doctor extends AggregateEvent<DoctorID> {
     }
 
     public void doctorAdded(String message) {
-        appendChange(new DoctorAdded(name,especiality)).apply();
+        appendChange(new DoctorAddedMessage(message)).apply();
     }
 }
